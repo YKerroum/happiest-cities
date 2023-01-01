@@ -13,7 +13,7 @@ function App() {
         <div className='contentContainer'>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/:id" element={<City />} />
+            <Route path="/:idCity" element={<City />} />
           </Routes>
         </div>
     </div>
