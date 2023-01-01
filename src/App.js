@@ -10,12 +10,12 @@ import Home from './pages/Home';
 function App() {
   return (
     <div className="App">
-        <div className='contentContainer'>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/:idCity" element={<City />} />
-          </Routes>
-        </div>
+      <div className="contentContainer">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/:idCity" element={<City />} />
+        </Routes>
+      </div>
     </div>
   );
 }

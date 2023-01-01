@@ -1,15 +1,12 @@
-
 import React from 'react';
 
-const Home =()=>{
-  return (
-    <>
-    </>
-    );
-}
+const Home = () => (
+  <>
+  </>
+);
 
 export default Home;
 
-export const loader = () =>{
+export const loader = () => {
 
-}
+};
